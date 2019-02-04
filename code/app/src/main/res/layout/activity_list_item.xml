@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="120">
+
+    <TextView
+        android:id="@+id/DateTime"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/Systolic"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+         />
+
+    <TextView
+        android:id="@+id/Diastolic"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+       />
+
+    <TextView
+        android:id="@+id/HeartRate"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+         />
+
+    <TextView
+        android:id="@+id/Comment"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>
