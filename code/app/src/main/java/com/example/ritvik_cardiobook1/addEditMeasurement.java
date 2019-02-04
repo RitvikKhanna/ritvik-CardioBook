@@ -101,7 +101,7 @@ public class addEditMeasurement extends AppCompatActivity {
         * The following if statements fill up the empty fields automatically
          */
         if(commentEntered==null||commentEntered.isEmpty()){
-            commentEntered = "N/A";
+            commentEntered = "";
         }
         if(dateEntered==null||dateEntered.isEmpty()){
             dateEntered = "0000/00/00";
